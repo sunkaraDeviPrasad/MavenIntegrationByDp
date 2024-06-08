@@ -1,0 +1,180 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>20/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sat Jun 08 12:06:39 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>0 seconds (154 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Countries.Country2.sa()'><b>sa</b><br>Test class: Countries.Country2</td>
+<td></td>
+<td>0</td>
+<td>Countries.Country2@35e2d654</td></tr>
+<tr>
+<td title='Countries.Country2.eg()'><b>eg</b><br>Test class: Countries.Country2</td>
+<td></td>
+<td>0</td>
+<td>Countries.Country2@35e2d654</td></tr>
+<tr>
+<td title='Countries.Country2.pk()'><b>pk</b><br>Test class: Countries.Country2</td>
+<td></td>
+<td>0</td>
+<td>Countries.Country2@35e2d654</td></tr>
+<tr>
+<td title='Countries.Country3.mal()'><b>mal</b><br>Test class: Countries.Country3</td>
+<td></td>
+<td>0</td>
+<td>Countries.Country3@293a5bf6</td></tr>
+<tr>
+<td title='Countries.Country3.sig()'><b>sig</b><br>Test class: Countries.Country3</td>
+<td></td>
+<td>0</td>
+<td>Countries.Country3@293a5bf6</td></tr>
+<tr>
+<td title='Countries.Country3.bang()'><b>bang</b><br>Test class: Countries.Country3</td>
+<td></td>
+<td>0</td>
+<td>Countries.Country3@293a5bf6</td></tr>
+<tr>
+<td title='Countries.Country2.ch()'><b>ch</b><br>Test class: Countries.Country2</td>
+<td></td>
+<td>0</td>
+<td>Countries.Country2@35e2d654</td></tr>
+<tr>
+<td title='Countries.Country2.eng()'><b>eng</b><br>Test class: Countries.Country2</td>
+<td></td>
+<td>0</td>
+<td>Countries.Country2@35e2d654</td></tr>
+<tr>
+<td title='Countries.Country1.dk()'><b>dk</b><br>Test class: Countries.Country1</td>
+<td></td>
+<td>0</td>
+<td>Countries.Country1@6aeb35e6</td></tr>
+<tr>
+<td title='Countries.Country1.it()'><b>it</b><br>Test class: Countries.Country1</td>
+<td></td>
+<td>0</td>
+<td>Countries.Country1@6aeb35e6</td></tr>
+<tr>
+<td title='Countries.Country1.aus()'><b>aus</b><br>Test class: Countries.Country1</td>
+<td></td>
+<td>0</td>
+<td>Countries.Country1@6aeb35e6</td></tr>
+<tr>
+<td title='Countries.Country2.srl()'><b>srl</b><br>Test class: Countries.Country2</td>
+<td></td>
+<td>0</td>
+<td>Countries.Country2@35e2d654</td></tr>
+<tr>
+<td title='Countries.Country1.sn()'><b>sn</b><br>Test class: Countries.Country1</td>
+<td></td>
+<td>0</td>
+<td>Countries.Country1@6aeb35e6</td></tr>
+<tr>
+<td title='Countries.Country3.zim()'><b>zim</b><br>Test class: Countries.Country3</td>
+<td></td>
+<td>0</td>
+<td>Countries.Country3@293a5bf6</td></tr>
+<tr>
+<td title='Countries.Country2.fr()'><b>fr</b><br>Test class: Countries.Country2</td>
+<td></td>
+<td>0</td>
+<td>Countries.Country2@35e2d654</td></tr>
+<tr>
+<td title='Countries.Country3.ko()'><b>ko</b><br>Test class: Countries.Country3</td>
+<td></td>
+<td>0</td>
+<td>Countries.Country3@293a5bf6</td></tr>
+<tr>
+<td title='Countries.Country3.jp()'><b>jp</b><br>Test class: Countries.Country3</td>
+<td></td>
+<td>0</td>
+<td>Countries.Country3@293a5bf6</td></tr>
+<tr>
+<td title='Countries.Country1.nl()'><b>nl</b><br>Test class: Countries.Country1</td>
+<td></td>
+<td>0</td>
+<td>Countries.Country1@6aeb35e6</td></tr>
+<tr>
+<td title='Countries.Country3.som()'><b>som</b><br>Test class: Countries.Country3</td>
+<td></td>
+<td>0</td>
+<td>Countries.Country3@293a5bf6</td></tr>
+<tr>
+<td title='Countries.Country1.ind()'><b>ind</b><br>Test class: Countries.Country1</td>
+<td></td>
+<td>0</td>
+<td>Countries.Country1@6aeb35e6</td></tr>
+</table><p>
+</body>
+</html>
